@@ -1,0 +1,33 @@
+
+.sideBar-heading {
+    color: white;
+    background-color: #001529;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.fa-trash {
+    color: red;
+    position: relative;
+    top: 28%;
+    left: 60%;
+    background-color: #001529;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #001529;
+    width: 100%;
+}
+
+.history-record {
+    display: flex;
+    justify-content: start;
+    padding:11px;
+    position: relative;
+    left: -20px;
+    i {
+        padding: 0;
+        width: 50%;
+    }
+}

@@ -1,0 +1,105 @@
+/* line 1, src/styles/_emiForm.scss */
+.hero {
+  background-color: #002140;
+  height: 100vh;
+  padding: 70px; }
+
+/* line 7, src/styles/_emiForm.scss */
+.emi-form {
+  background-image: linear-gradient(to right, #f5f1f1, rgba(148, 145, 145, 0.8)), url("../../public/calculation.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px; }
+  /* line 16, src/styles/_emiForm.scss */
+  .emi-form h6 {
+    font-weight: bold; }
+  /* line 20, src/styles/_emiForm.scss */
+  .emi-form .ant-progress-text {
+    font-size: 16px;
+    font-weight: bold; }
+    /* line 23, src/styles/_emiForm.scss */
+    .emi-form .ant-progress-text .value {
+      font-weight: normal;
+      font-size: 22px; }
+    /* line 27, src/styles/_emiForm.scss */
+    .emi-form .ant-progress-text .total-interest {
+      font-weight: normal;
+      font-size: 22px;
+      color: #108EE9;
+      font-weight: bolder;
+      text-align: center; }
+  /* line 36, src/styles/_emiForm.scss */
+  .emi-form .emi-form-title {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: xx-large;
+    font-weight: bold; }
+  /* line 44, src/styles/_emiForm.scss */
+  .emi-form .panel {
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  /* line 52, src/styles/_emiForm.scss */
+  .emi-form .panel-one {
+    display: block !important; }
+  /* line 56, src/styles/_emiForm.scss */
+  .emi-form .panel-two {
+    display: block !important; }
+    /* line 58, src/styles/_emiForm.scss */
+    .emi-form .panel-two .ant-progress-circle {
+      margin-bottom: 20%;
+      margin-top: 20px;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center; }
+
+/* line 68, src/styles/_emiForm.scss */
+.ant-tooltip-inner {
+  background-color: #108EE9 !important; }
+
+/* line 72, src/styles/_emiForm.scss */
+.sidebar {
+  height: 91.3vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #001529; }
+
+/* line 2, src/styles/_sideBar.scss */
+.sideBar-heading {
+  color: white;
+  background-color: #001529;
+  margin-bottom: 0;
+  padding: 10px; }
+
+/* line 9, src/styles/_sideBar.scss */
+.fa-trash {
+  color: red;
+  position: relative;
+  top: 28%;
+  left: 60%;
+  background-color: #001529;
+  cursor: pointer; }
+
+/* line 18, src/styles/_sideBar.scss */
+.delete {
+  background-color: #001529;
+  width: 100%; }
+
+/* line 23, src/styles/_sideBar.scss */
+.history-record {
+  display: flex;
+  justify-content: start;
+  padding: 11px;
+  position: relative;
+  left: -20px; }
+  /* line 29, src/styles/_sideBar.scss */
+  .history-record i {
+    padding: 0;
+    width: 50%; }
